@@ -24,6 +24,7 @@ body {
     border-radius: 8px; 
     text-align:center;
     background-size:contain;
+    color:black;
 }
 
 .score {
@@ -44,6 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color:black;
 }
 
 .btn{
@@ -70,4 +72,8 @@ body {
 
 .hide{
     display:none;
+}
+
+.question-text {
+    color:black;
 }
