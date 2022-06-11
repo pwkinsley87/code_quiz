@@ -1,0 +1,77 @@
+body {
+    color: white;
+}
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 2px;
+    width: 100%;
+    border-radius: 4px;
+    background: cornflowerblue;
+    font-size:50px;
+    min-width:80vw;
+}
+
+.choice-container:hover {
+    cursor:pointer;
+    box-shadow: 0 1px 2px 0 cornflowerblue;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 4px 5px;
+    color:white;
+}
+
+.choice-text {
+    padding: 4px;
+    width:100%;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background:red;
+}
+
+/* Heads up Display */
+#hud {
+    display:flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20vw;
+    height:10px;
+    border:1px solid green;
+    margin-top: 4px;
+    border-radius: 50px;
+    overflow:hidden;
+
+
+}
+
+#progressBarFull { 
+    height: 100%;
+    background: green;
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width:40vw;
+    }
+}
